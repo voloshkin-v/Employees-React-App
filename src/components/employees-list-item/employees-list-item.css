@@ -7,11 +7,17 @@
 	border-bottom: none;
 }
 
-.list-group-item span {
+.list-group-item .list-group-item-label {
 	line-height: 35px;
 	font-size: 20px;
 	cursor: pointer;
 	min-width: 550px;
+	width: auto;
+    height: auto;
+    margin: 0;
+	text-align: left;
+	background-color: transparent;
+	padding: 0;
 }
 
 .list-group-item input {
